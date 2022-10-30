@@ -1,0 +1,259 @@
+/* index.css */
+.animation1 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  left: -40px;
+  animation: animation1 8s linear infinite;
+}
+
+.animation2 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  left: -40px;
+  animation: animation2 9s 1s linear infinite;
+}
+
+.animation3 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  left: -40px;
+  animation: animation3 9s linear infinite;
+}
+
+.animation4 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  left: -40px;
+  animation: animation4 9s 2s linear infinite;
+}
+
+.animation5 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  left: -40px;
+  animation: animation5 9s 1s linear infinite;
+}
+
+.animation6 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  left: -40px;
+  animation: animation6 9s 3s linear infinite;
+}
+
+.animation7 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  left: -40px;
+  animation: animation7 8s linear infinite;
+}
+
+.animation8 {
+  display: inline-block;
+  position: fixed;
+  z-index: 2000;
+  opacity: 0;
+  top: -40px;
+  right: -200px;
+  animation: animation8 10s linear infinite;
+}
+
+
+@keyframes animation1 {
+  0% {
+    top: 50%;
+    left: -80px;
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 100%;
+    left: 20%;
+    opacity: 0;
+  }
+}
+
+@keyframes animation2 {
+  0% {
+    top: 80px;
+    left: -80px;
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 100%;
+    left: 50%;
+    opacity: 0;
+  }
+}
+
+@keyframes animation3 {
+  0% {
+    top: 30%;
+    left: 20%;
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 110%;
+    left: 75%;
+    opacity: 0;
+  }
+}
+
+@keyframes animation4 {
+  0% {
+    top: -80px;
+    left: -80px;
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 101%;
+    left: 80%;
+    opacity: 0;
+  }
+}
+
+@keyframes animation5 {
+  0% {
+    top: 10%;
+    left: 40%;
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 100%;
+    left: 120%;
+    opacity: 0;
+  }
+}
+
+@keyframes animation6 {
+  0% {
+    top: -80px;
+    left: 50%;
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 100%;
+    left: 110%;
+    opacity: 0;
+  }
+}
+
+@keyframes animation7 {
+  0% {
+    top: -80px;
+    left: 70%;
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 50%;
+    left: 110%;
+    opacity: 0;
+  }
+}
+
+@keyframes animation8 {
+  0% {
+    top: -75px;
+    right: -200px;
+    opacity: 0;
+    transform: rotate(0)
+  }
+
+  50% {
+    transform: rotate(-30deg)
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 100%;
+    right: 100%;
+    transform: rotate(0);
+    opacity: 0;
+  }
+}
+
+
+:global .switchStyle {
+  z-index: 31;
+}
+
+.shadeWrapper {
+  z-index: 1050;
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.shadeWrapper .shadeClose {
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: #fff;
+}
